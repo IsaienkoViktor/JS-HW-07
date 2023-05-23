@@ -3,8 +3,6 @@ import { galleryItems } from './gallery-items.js';
 
 // Change code below this line
 
-console.log(galleryItems);
-
 const galleryMenu = document.querySelector('.gallery');
 
 
@@ -18,7 +16,7 @@ const galleryMarkUP = galleryItems.map(({ preview, original, description }) => `
     />
   </a>
 </li>`).join('')
-console.log(galleryMarkUP);
+
 
 galleryMenu.insertAdjacentHTML("beforeend", galleryMarkUP);
 

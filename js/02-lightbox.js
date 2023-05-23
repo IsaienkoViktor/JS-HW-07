@@ -9,7 +9,7 @@ const galleryMarkUP = galleryItems.map(({ preview, original, description }) => `
    <img class="gallery__image" src="${preview}" alt="${description}" />
 </a>
 </li>`).join('')
-console.log(galleryMarkUP);
+
 
 galleryMenu.insertAdjacentHTML("beforeend", galleryMarkUP);
 
